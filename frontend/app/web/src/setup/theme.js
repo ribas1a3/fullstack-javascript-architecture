@@ -1,12 +1,12 @@
 // UI Imports
 import { createMuiTheme } from '@material-ui/core/styles'
-import yellow from '@material-ui/core/colors/yellow'
+import pink from '@material-ui/core/colors/pink'
 import amber from '@material-ui/core/colors/amber'
 
 export default createMuiTheme({
   palette: {
-    primary:amber ,
-    secondary: yellow
+    primary:pink ,
+    secondary: amber
   },
   typography: {
     useNextVariants: true
