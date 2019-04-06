@@ -27,6 +27,14 @@ export default async function() {
       name: 'User',
       image: 'default.jpg',
       isDeleted: false
+    },
+    {
+      email: 'sabir@example.com',
+      password: '123456',
+      role: params.user.roles.user.key,
+      name: 'User',
+      image: 'default.jpg',
+      isDeleted: false
     }
   ]
 
