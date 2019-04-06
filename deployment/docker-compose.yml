@@ -7,7 +7,7 @@ services:
     build: ../backend/database
     volumes:
       - ../backend/database/data:/data/db
-    restart: always
+    restart: on-failure
     networks:
       - back
 
