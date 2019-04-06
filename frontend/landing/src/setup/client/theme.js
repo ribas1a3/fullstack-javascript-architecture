@@ -1,12 +1,12 @@
 // UI Imports
 import { createMuiTheme } from '@material-ui/core/styles'
 import pink from '@material-ui/core/colors/pink'
-import yellow from '@material-ui/core/colors/yellow'
+import brown from '@material-ui/core/colors/brown'
 
 const theme = createMuiTheme({
   palette: {
-    primary: pink,
-    secondary: yellow
+    primary: brown,
+    secondary: pink
   },
   typography: {
     useNextVariants: true

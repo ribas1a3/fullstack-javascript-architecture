@@ -29,7 +29,7 @@ export default async function() {
       isDeleted: false
     },
     {
-      email: 'sabir@example.com',
+      email: 'ahmed@example.com',
       password: '123456',
       role: params.user.roles.user.key,
       name: 'User',
